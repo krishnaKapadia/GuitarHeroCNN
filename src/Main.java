@@ -30,8 +30,8 @@ public class Main {
             if (jfc.getSelectedFile().isDirectory()) {
                 System.out.println("You selected the directory: " + jfc.getSelectedFile());
             }
-//        }
-
+        }
+//            jfc.getSelectedFile().toString() + File.separator + "testImage.jpg"
 //        VideoCapture videoCapture =
 
         Mat color = Imgcodecs.imread(jfc.getSelectedFile().toString() + File.separator + "testImage.jpg");
